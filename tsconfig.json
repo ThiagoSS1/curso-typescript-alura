@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js",//onde os arquivos compilados serao gerados, transformados para js
+        "target": "ES6",
+        "noEmitOnError": true, // se tiver um problema de compilacao nao gerar arquivos js
+        "noImplicitAny": true
+    },
+    "include": ["app/**/*"]// onde os arquivos TS irao ficar aqui
+}
